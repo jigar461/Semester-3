@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let products = [
+  {
+    "name": "Miss Carrie Schmidt",
+    "price": 82,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "1"
+  },
+  {
+    "name": "Kerry Pouros",
+    "price": 43,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "2"
+  },
+  {
+    "name": "Katie Terry",
+    "price": 26,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "3"
+  },
+  {
+    "name": "Christopher Klein",
+    "price": 31,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "4"
+  },
+  {
+    "name": "Mr. Monique Turcotte IV",
+    "price": 59,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "5"
+  },
+  {
+    "name": "Ethel O'Kon",
+    "price": 87,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "6"
+  },
+  {
+    "name": "Guillermo Schoen",
+    "price": 45,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "7"
+  },
+  {
+    "name": "Jacqueline Grady",
+    "price": 43,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "8"
+  },
+  {
+    "name": "Jeff Ondricka",
+    "price": 23,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "9"
+  },
+  {
+    "name": "Sandra Wuckert",
+    "price": 84,
+    "image": "https://loremflickr.com/640/480/business",
+    "id": "10"
+  }
+]
+  document.write("<table border='1'>")
+  document.write("<tr><td>Name</td><td>Price</td><td>Image</td><td>id</td></tr>")
+  for(p of products){
+    document.write("<tr><td>"+p.name+"</td>"+"<td>"+p.price+"</td>"+"<td><img src="+p.image+">"+"</td>"+"<td>"+p.id+"</td></tr>")
+  }
+  document.write("</table>")
+    </script>
+</body>
+</html>
