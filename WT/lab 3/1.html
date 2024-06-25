@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [2,5,72,9,10,40,30,32,100,76]
+        let max = arr[0]
+        // for(i=0;i<arr.length;i++){
+        //     if(arr[i]>max){
+        //         max=arr[i]
+        //     }
+        // }
+        for(var i of arr){
+            if(i>max){
+                max=i
+            }
+        }
+        document.write(max)
+    </script> 
+</body>
+</html>
